@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-    return phone.match((/\A(d[()-]*){10}/ != nil)
+    return phone.match((/\A(d[()-]*){10}/) != nil)
 end
